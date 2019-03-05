@@ -48,12 +48,12 @@ char_table = {
 }
 """
 # char_table = {ord(key): ord(value) for key, value in char_table.items()}
-in_table = u'0123456789abcdefghijklmnopqrstuvw'
-out_table = u'7dgjmoru140852vsnkheb963wtqplifca'
+in_table = '0123456789abcdefghijklmnopqrstuvw'
+out_table = '7dgjmoru140852vsnkheb963wtqplifca'
 # 将in和out中每个字符转化为各自的ascii码，返回一个字典（dict）
 char_table = str.maketrans(in_table, out_table)
 
-print(char_table)
+print('char_table:',char_table)
 # for t in a:
         #解码
 if True:
